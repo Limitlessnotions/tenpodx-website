@@ -1,1 +1,72 @@
 @import "tailwindcss";
+
+/* =========================================
+   TENPODX CLIENT REVISION
+   ========================================= */
+
+:root {
+    --color-primary: #F4A261;
+    --color-primary-hover: #E99550;
+    --color-primary-soft: #FCE8D5;
+    --color-primary-light: #FFF7EF;
+
+    --radius-small: 2px;
+    --radius-medium: 4px;
+    --radius-large: 6px;
+}
+
+/* MS Mincho typography */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "MS Mincho", "ＭＳ 明朝", "Yu Mincho",
+        "Hiragino Mincho ProN", serif;
+}
+
+/* Reduce excessive border radius across the website */
+.rounded-lg {
+    border-radius: var(--radius-medium);
+}
+
+.rounded-xl {
+    border-radius: var(--radius-medium);
+}
+
+.rounded-2xl {
+    border-radius: var(--radius-large);
+}
+
+.rounded-3xl {
+    border-radius: var(--radius-large);
+}
+
+/* Softer primary orange */
+.bg-orange-500 {
+    background-color: var(--color-primary);
+}
+
+.hover\:bg-orange-600:hover {
+    background-color: var(--color-primary-hover);
+}
+
+.text-orange-500 {
+    color: var(--color-primary);
+}
+
+.border-orange-500 {
+    border-color: var(--color-primary);
+}
+
+.bg-orange-50 {
+    background-color: var(--color-primary-light);
+}
+
+.bg-orange-100 {
+    background-color: var(--color-primary-soft);
+}
+
+.focus\:border-orange-500:focus {
+    border-color: var(--color-primary);
+}
