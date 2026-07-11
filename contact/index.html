@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <!-- SEO -->
+    <title>お問い合わせ | TENPODX</title>
+
+    <meta
+        name="description"
+        content="TENPODXへのお問い合わせはこちら。店舗DX、AI、業務自動化、データ活用に関するご相談を受け付けています。"
+    >
+
+    <!-- Open Graph -->
+    <meta
+        property="og:title"
+        content="お問い合わせ | TENPODX"
+    >
+
+    <meta
+        property="og:description"
+        content="店舗DX、AI、業務自動化、データ活用に関するご相談は、TENPODXまでお問い合わせください。"
+    >
+
+    <meta property="og:type" content="website">
+
+    <meta property="og:locale" content="ja_JP">
+
+    <!-- Tailwind CSS -->
+    <link
+        rel="stylesheet"
+        href="../assets/css/output.css"
+    >
+</head>
+
+
+<body class="bg-white text-slate-900 antialiased">
+
+    <!-- =====================================================
+         HEADER
+    ====================================================== -->
+
+    <header
+        id="header"
+        class="sticky top-0 z-50 border-b border-slate-200 bg-white/95 backdrop-blur"
+    >
+        <div
+            class="mx-auto flex h-20 max-w-7xl items-center justify-between px-5 sm:px-6 lg:px-8"
+        >
+
+            <!-- Logo -->
+            <a
+                href="../index.html"
+                class="flex items-center"
+                aria-label="TENPODX ホーム"
+            >
+                <span class="text-xl font-bold tracking-tight text-slate-900">
+                    TENPODX
+                </span>
+            </a>
+
+
+            <!-- Desktop Navigation -->
+            <nav
+                class="hidden items-center gap-8 lg:flex"
+                aria-label="メインナビゲーション"
+            >
+
+                <a
+                    href="../service/"
+                    class="text-sm font-medium text-slate-700 transition hover:text-orange-500"
+                >
+                    サービス
+                </a>
+
+                <a
+                    href="../index.html#about"
+                    class="text-sm font-medium text-slate-700 transition hover:text-orange-500"
+                >
+                    店舗DXとは
+                </a>
+
+                <a
+                    href="../column/"
+                    class="text-sm font-medium text-slate-700 transition hover:text-orange-500"
+                >
+                    コラム
+                </a>
+
+                <a
+                    href="../contact/"
+                    class="inline-flex items-center justify-center rounded-lg bg-orange-500 px-6 py-3 text-sm font-semibold text-white transition hover:bg-orange-600"
+                    aria-current="page"
+                >
+                    お問い合わせ
+                </a>
+
+            </nav>
+
+
+            <!-- Mobile Menu Button -->
+            <button
+                id="menu-button"
+                type="button"
+                class="flex h-11 w-11 items-center justify-center rounded-lg border border-slate-200 lg:hidden"
+                aria-label="メニューを開く"
+                aria-expanded="false"
+                aria-controls="mobile-menu"
+            >
+                <svg
+                    class="h-6 w-6"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    aria-hidden="true"
+                >
+                    <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M4 6h16M4 12h16M4 18h16"
+                    />
+                </svg>
+            </button>
+
+        </div>
+
+
+        <!-- Mobile Navigation -->
+        <nav
+            id="mobile-menu"
+            class="hidden border-t border-slate-200 bg-white lg:hidden"
+            aria-label="モバイルナビゲーション"
+        >
+            <div class="space-y-1 px-5 py-5">
+
+                <a
+                    href="../service/"
+                    class="block rounded-lg px-4 py-3 font-medium text-slate-700 hover:bg-slate-50"
+                >
+                    サービス
+                </a>
+
+                <a
+                    href="../index.html#about"
+                    class="block rounded-lg px-4 py-3 font-medium text-slate-700 hover:bg-slate-50"
+                >
+                    店舗DXとは
+                </a>
+
+                <a
+                    href="../column/"
+                    class="block rounded-lg px-4 py-3 font-medium text-slate-700 hover:bg-slate-50"
+                >
+                    コラム
+                </a>
+
+                <a
+                    href="../contact/"
+                    class="mt-4 flex items-center justify-center rounded-lg bg-orange-500 px-6 py-3 font-semibold text-white"
+                    aria-current="page"
+                >
+                    お問い合わせ
+                </a>
+
+            </div>
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- =====================================================
+             CONTACT HEADER
+        ====================================================== -->
+
+        <section
+            class="bg-slate-50 py-12 sm:py-14 lg:py-16"
+            aria-labelledby="contact-title"
+        >
+            <div
+                class="mx-auto max-w-4xl px-5 text-center sm:px-6 lg:px-8"
+            >
+
+                <p
+                    class="mb-4 text-sm font-bold uppercase tracking-[0.2em] text-orange-500"
+                >
+                    Contact
+                </p>
+
+                <h1
+                    id="contact-title"
+                    class="text-4xl font-bold tracking-tight text-slate-950 sm:text-5xl"
+                >
+                    お問い合わせ
+                </h1>
+
+            </div>
+        </section>
+
+
+        <!-- =====================================================
+             CONTACT FORM
+        ====================================================== -->
+
+        <section
+            class="py-12 sm:py-14 lg:py-16"
+            aria-labelledby="contact-form-title"
+        >
+
+            <div
+                class="mx-auto max-w-3xl px-5 sm:px-6 lg:px-8"
+            >
+
+                <div class="mb-8 text-center">
+
+                    <h2
+                        id="contact-form-title"
+                        class="text-2xl font-bold tracking-tight text-slate-950 sm:text-3xl"
+                    >
+                        お問い合わせフォーム
+                    </h2>
+
+                </div>
+
+
+                <!-- Success State -->
+                <div
+                    id="form-success"
+                    class="mb-8 hidden rounded-xl border border-green-200 bg-green-50 p-5"
+                    role="status"
+                    aria-live="polite"
+                >
+                    <p class="font-semibold text-green-800">
+                        お問い合わせありがとうございます。
+                    </p>
+
+                    <p class="mt-1 text-sm leading-6 text-green-700">
+                        フォームの送信が完了しました。
+                    </p>
+                </div>
+
+
+                <!-- General Error State -->
+                <div
+                    id="form-error"
+                    class="mb-8 hidden rounded-xl border border-red-200 bg-red-50 p-5"
+                    role="alert"
+                    aria-live="assertive"
+                >
+                    <p class="font-semibold text-red-800">
+                        入力内容をご確認ください。
+                    </p>
+
+                    <p class="mt-1 text-sm leading-6 text-red-700">
+                        必須項目に正しい情報を入力してください。
+                    </p>
+                </div>
+
+
+                <!-- Contact Form -->
+                <form
+                    id="contact-form"
+                    class="space-y-6 rounded-2xl border border-slate-200 bg-white p-6 sm:p-8"
+                    novalidate
+                >
+
+                    <!-- Company Name -->
+                    <div>
+
+                        <label
+                            for="company"
+                            class="mb-2 block text-sm font-semibold text-slate-900"
+                        >
+                            会社名
+                        </label>
+
+                        <input
+                            type="text"
+                            id="company"
+                            name="company"
+                            autocomplete="organization"
+                            class="w-full rounded-lg border border-slate-300 bg-white px-4 py-3 text-slate-900 outline-none transition placeholder:text-slate-400 focus:border-orange-500 focus:ring-2 focus:ring-orange-100"
+                            placeholder="株式会社〇〇"
+                        >
+
+                        <p
+                            id="company-error"
+                            class="mt-2 hidden text-sm text-red-600"
+                        >
+                            会社名を入力してください。
+                        </p>
+
+                    </div>
+
+
+                    <!-- Name -->
+                    <div>
+
+                        <label
+                            for="name"
+                            class="mb-2 block text-sm font-semibold text-slate-900"
+                        >
+                            お名前
+                            <span class="ml-1 text-red-500" aria-hidden="true">
+                                *
+                            </span>
+                        </label>
+
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            autocomplete="name"
+                            required
+                            aria-required="true"
+                            aria-describedby="name-error"
+                            class="w-full rounded-lg border border-slate-300 bg-white px-4 py-3 text-slate-900 outline-none transition placeholder:text-slate-400 focus:border-orange-500 focus:ring-2 focus:ring-orange-100"
+                            placeholder="山田 太郎"
+                        >
+
+                        <p
+                            id="name-error"
+                            class="mt-2 hidden text-sm text-red-600"
+                        >
+                            お名前を入力してください。
+                        </p>
+
+                    </div>
+
+
+                    <!-- Email -->
+                    <div>
+
+                        <label
+                            for="email"
+                            class="mb-2 block text-sm font-semibold text-slate-900"
+                        >
+                            メールアドレス
+                            <span class="ml-1 text-red-500" aria-hidden="true">
+                                *
+                            </span>
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            autocomplete="email"
+                            required
+                            aria-required="true"
+                            aria-describedby="email-error"
+                            class="w-full rounded-lg border border-slate-300 bg-white px-4 py-3 text-slate-900 outline-none transition placeholder:text-slate-400 focus:border-orange-500 focus:ring-2 focus:ring-orange-100"
+                            placeholder="example@company.com"
+                        >
+
+                        <p
+                            id="email-error"
+                            class="mt-2 hidden text-sm text-red-600"
+                        >
+                            正しいメールアドレスを入力してください。
+                        </p>
+
+                    </div>
+
+
+                    <!-- Phone -->
+                    <div>
+
+                        <label
+                            for="phone"
+                            class="mb-2 block text-sm font-semibold text-slate-900"
+                        >
+                            電話番号
+                        </label>
+
+                        <input
+                            type="tel"
+                            id="phone"
+                            name="phone"
+                            autocomplete="tel"
+                            inputmode="tel"
+                            aria-describedby="phone-error"
+                            class="w-full rounded-lg border border-slate-300 bg-white px-4 py-3 text-slate-900 outline-none transition placeholder:text-slate-400 focus:border-orange-500 focus:ring-2 focus:ring-orange-100"
+                            placeholder="03-1234-5678"
+                        >
+
+                        <p
+                            id="phone-error"
+                            class="mt-2 hidden text-sm text-red-600"
+                        >
+                            正しい電話番号を入力してください。
+                        </p>
+
+                    </div>
+
+
+                    <!-- Message -->
+                    <div>
+
+                        <label
+                            for="message"
+                            class="mb-2 block text-sm font-semibold text-slate-900"
+                        >
+                            お問い合わせ内容
+                            <span class="ml-1 text-red-500" aria-hidden="true">
+                                *
+                            </span>
+                        </label>
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="7"
+                            required
+                            aria-required="true"
+                            aria-describedby="message-error"
+                            class="w-full resize-y rounded-lg border border-slate-300 bg-white px-4 py-3 text-slate-900 outline-none transition placeholder:text-slate-400 focus:border-orange-500 focus:ring-2 focus:ring-orange-100"
+                            placeholder="お問い合わせ内容をご入力ください。"
+                        ></textarea>
+
+                        <p
+                            id="message-error"
+                            class="mt-2 hidden text-sm text-red-600"
+                        >
+                            お問い合わせ内容を入力してください。
+                        </p>
+
+                    </div>
+
+
+                    <!-- Submit Button -->
+                    <div class="pt-2">
+
+                        <button
+                            type="submit"
+                            class="inline-flex min-h-12 w-full items-center justify-center rounded-lg bg-orange-500 px-8 py-4 font-semibold text-white transition hover:bg-orange-600 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2"
+                        >
+                            送信する
+                        </button>
+
+                    </div>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+    <footer class="bg-slate-950 text-white">
+
+        <div
+            class="mx-auto max-w-7xl px-5 py-14 sm:px-6 lg:px-8"
+        >
+
+            <div
+                class="flex flex-col gap-10 md:flex-row md:items-start md:justify-between"
+            >
+
+                <!-- Logo -->
+                <div>
+
+                    <a
+                        href="../index.html"
+                        class="text-xl font-bold tracking-tight"
+                        aria-label="TENPODX ホーム"
+                    >
+                        TENPODX
+                    </a>
+
+                </div>
+
+
+                <!-- Footer Navigation -->
+                <nav
+                    class="flex flex-wrap gap-x-8 gap-y-4"
+                    aria-label="フッターナビゲーション"
+                >
+
+                    <a
+                        href="../service/"
+                        class="text-sm text-slate-300 transition hover:text-white"
+                    >
+                        サービス
+                    </a>
+
+                    <a
+                        href="../index.html#about"
+                        class="text-sm text-slate-300 transition hover:text-white"
+                    >
+                        店舗DXとは
+                    </a>
+
+                    <a
+                        href="../column/"
+                        class="text-sm text-slate-300 transition hover:text-white"
+                    >
+                        コラム
+                    </a>
+
+                    <a
+                        href="../contact/"
+                        class="text-sm text-slate-300 transition hover:text-white"
+                    >
+                        お問い合わせ
+                    </a>
+
+                    <a
+                        href="#"
+                        class="text-sm text-slate-300 transition hover:text-white"
+                    >
+                        プライバシーポリシー
+                    </a>
+
+                </nav>
+
+            </div>
+
+
+            <div
+                class="mt-8 border-t border-slate-800 pt-6"
+            >
+
+                <p class="text-sm text-slate-400">
+                    &copy; 2026 TENPODX. All Rights Reserved.
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="../assets/js/main.js" defer></script>
+
+
+    <!-- =====================================================
+         CONTACT FORM VALIDATION
+    ====================================================== -->
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+
+            const form = document.getElementById("contact-form");
+            const successState = document.getElementById("form-success");
+            const errorState = document.getElementById("form-error");
+
+            const nameInput = document.getElementById("name");
+            const emailInput = document.getElementById("email");
+            const phoneInput = document.getElementById("phone");
+            const messageInput = document.getElementById("message");
+
+            const nameError = document.getElementById("name-error");
+            const emailError = document.getElementById("email-error");
+            const phoneError = document.getElementById("phone-error");
+            const messageError = document.getElementById("message-error");
+
+
+            // Email validation
+            const isValidEmail = (email) => {
+                return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+            };
+
+
+            // Phone validation
+            const isValidPhone = (phone) => {
+
+                if (phone === "") {
+                    return true;
+                }
+
+                return /^[0-9+\-\s()]{7,20}$/.test(phone);
+            };
+
+
+            // Show field error
+            const showFieldError = (input, errorElement) => {
+
+                input.classList.remove(
+                    "border-slate-300",
+                    "focus:border-orange-500",
+                    "focus:ring-orange-100"
+                );
+
+                input.classList.add(
+                    "border-red-500",
+                    "focus:border-red-500",
+                    "focus:ring-red-100"
+                );
+
+                input.setAttribute("aria-invalid", "true");
+
+                errorElement.classList.remove("hidden");
+            };
+
+
+            // Clear field error
+            const clearFieldError = (input, errorElement) => {
+
+                input.classList.remove(
+                    "border-red-500",
+                    "focus:border-red-500",
+                    "focus:ring-red-100"
+                );
+
+                input.classList.add(
+                    "border-slate-300",
+                    "focus:border-orange-500",
+                    "focus:ring-orange-100"
+                );
+
+                input.removeAttribute("aria-invalid");
+
+                errorElement.classList.add("hidden");
+            };
+
+
+            // Form submit
+            form.addEventListener("submit", (event) => {
+
+                event.preventDefault();
+
+                let isValid = true;
+
+                successState.classList.add("hidden");
+                errorState.classList.add("hidden");
+
+
+                // Validate name
+                if (nameInput.value.trim() === "") {
+
+                    showFieldError(nameInput, nameError);
+
+                    isValid = false;
+
+                } else {
+
+                    clearFieldError(nameInput, nameError);
+                }
+
+
+                // Validate email
+                if (!isValidEmail(emailInput.value.trim())) {
+
+                    showFieldError(emailInput, emailError);
+
+                    isValid = false;
+
+                } else {
+
+                    clearFieldError(emailInput, emailError);
+                }
+
+
+                // Validate phone
+                if (!isValidPhone(phoneInput.value.trim())) {
+
+                    showFieldError(phoneInput, phoneError);
+
+                    isValid = false;
+
+                } else {
+
+                    clearFieldError(phoneInput, phoneError);
+                }
+
+
+                // Validate message
+                if (messageInput.value.trim() === "") {
+
+                    showFieldError(messageInput, messageError);
+
+                    isValid = false;
+
+                } else {
+
+                    clearFieldError(messageInput, messageError);
+                }
+
+
+                // Error state
+                if (!isValid) {
+
+                    errorState.classList.remove("hidden");
+
+                    const firstInvalidField =
+                        form.querySelector('[aria-invalid="true"]');
+
+                    if (firstInvalidField) {
+                        firstInvalidField.focus();
+                    }
+
+                    return;
+                }
+
+
+                // Success state
+                errorState.classList.add("hidden");
+                successState.classList.remove("hidden");
+
+                form.reset();
+
+                successState.scrollIntoView({
+                    behavior: "smooth",
+                    block: "center"
+                });
+
+            });
+
+
+            // Clear errors while typing
+            nameInput.addEventListener("input", () => {
+
+                if (nameInput.value.trim() !== "") {
+                    clearFieldError(nameInput, nameError);
+                }
+
+            });
+
+
+            emailInput.addEventListener("input", () => {
+
+                if (isValidEmail(emailInput.value.trim())) {
+                    clearFieldError(emailInput, emailError);
+                }
+
+            });
+
+
+            phoneInput.addEventListener("input", () => {
+
+                if (isValidPhone(phoneInput.value.trim())) {
+                    clearFieldError(phoneInput, phoneError);
+                }
+
+            });
+
+
+            messageInput.addEventListener("input", () => {
+
+                if (messageInput.value.trim() !== "") {
+                    clearFieldError(messageInput, messageError);
+                }
+
+            });
+
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <!-- SEO -->
+    <title>店舗DXとは？店舗運営を効率化するための基本を解説 | TENPODX</title>
+
+    <meta
+        name="description"
+        content="店舗DXの基本的な考え方と、AIやデジタル技術を活用して店舗運営を効率化する方法について解説します。"
+    >
+
+    <!-- Open Graph -->
+    <meta
+        property="og:title"
+        content="店舗DXとは？店舗運営を効率化するための基本を解説 | TENPODX"
+    >
+
+    <meta
+        property="og:description"
+        content="店舗DXの基本的な考え方と、AIやデジタル技術を活用して店舗運営を効率化する方法について解説します。"
+    >
+
+    <meta property="og:type" content="article">
+    <meta property="og:locale" content="ja_JP">
+
+    <!-- Tailwind CSS -->
+    <link
+        rel="stylesheet"
+        href="../../assets/css/output.css"
+    >
+</head>
+
+
+<body class="bg-white text-slate-900 antialiased">
+
+    <!-- =====================================================
+         HEADER
+    ====================================================== -->
+
+    <header
+        id="header"
+        class="sticky top-0 z-50 border-b border-slate-200 bg-white/95 backdrop-blur"
+    >
+        <div
+            class="mx-auto flex h-20 max-w-7xl items-center justify-between px-5 sm:px-6 lg:px-8"
+        >
+
+            <!-- Logo -->
+            <a
+                href="../../index.html"
+                class="flex items-center"
+                aria-label="TENPODX ホーム"
+            >
+                <span class="text-xl font-bold tracking-tight text-slate-900">
+                    TENPODX
+                </span>
+            </a>
+
+
+            <!-- Desktop Navigation -->
+            <nav
+                class="hidden items-center gap-8 lg:flex"
+                aria-label="メインナビゲーション"
+            >
+                <a
+                    href="../../service/"
+                    class="text-sm font-medium text-slate-700 transition hover:text-orange-500"
+                >
+                    サービス
+                </a>
+
+                <a
+                    href="../../index.html#about"
+                    class="text-sm font-medium text-slate-700 transition hover:text-orange-500"
+                >
+                    店舗DXとは
+                </a>
+
+                <a
+                    href="../"
+                    class="text-sm font-medium text-orange-500 transition"
+                    aria-current="page"
+                >
+                    コラム
+                </a>
+
+                <a
+                    href="../../contact/"
+                    class="inline-flex items-center justify-center rounded-lg bg-orange-500 px-6 py-3 text-sm font-semibold text-white transition hover:bg-orange-600"
+                >
+                    お問い合わせ
+                </a>
+            </nav>
+
+
+            <!-- Mobile Menu Button -->
+            <button
+                id="menu-button"
+                type="button"
+                class="flex h-11 w-11 items-center justify-center rounded-lg border border-slate-200 lg:hidden"
+                aria-label="メニューを開く"
+                aria-expanded="false"
+                aria-controls="mobile-menu"
+            >
+                <svg
+                    class="h-6 w-6"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    aria-hidden="true"
+                >
+                    <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M4 6h16M4 12h16M4 18h16"
+                    />
+                </svg>
+            </button>
+
+        </div>
+
+
+        <!-- Mobile Navigation -->
+        <nav
+            id="mobile-menu"
+            class="hidden border-t border-slate-200 bg-white lg:hidden"
+            aria-label="モバイルナビゲーション"
+        >
+            <div class="space-y-1 px-5 py-5">
+
+                <a
+                    href="../../service/"
+                    class="block rounded-lg px-4 py-3 font-medium text-slate-700 hover:bg-slate-50"
+                >
+                    サービス
+                </a>
+
+                <a
+                    href="../../index.html#about"
+                    class="block rounded-lg px-4 py-3 font-medium text-slate-700 hover:bg-slate-50"
+                >
+                    店舗DXとは
+                </a>
+
+                <a
+                    href="../"
+                    class="block rounded-lg px-4 py-3 font-medium text-orange-500 hover:bg-slate-50"
+                    aria-current="page"
+                >
+                    コラム
+                </a>
+
+                <a
+                    href="../../contact/"
+                    class="mt-4 flex items-center justify-center rounded-lg bg-orange-500 px-6 py-3 font-semibold text-white"
+                >
+                    お問い合わせ
+                </a>
+
+            </div>
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- =====================================================
+             ARTICLE
+        ====================================================== -->
+
+        <article>
+
+            <!-- Article Header -->
+            <header class="bg-slate-50 py-12 sm:py-14 lg:py-16">
+
+                <div
+                    class="mx-auto max-w-4xl px-5 sm:px-6 lg:px-8"
+                >
+
+                    <!-- Category and Date -->
+                    <div
+                        class="flex flex-wrap items-center gap-4"
+                    >
+
+                        <span
+                            class="inline-flex rounded-full bg-orange-100 px-4 py-2 text-sm font-semibold text-orange-600"
+                        >
+                            店舗DX
+                        </span>
+
+                        <time
+                            datetime="2026-07-10"
+                            class="text-sm text-slate-500"
+                        >
+                            2026.07.10
+                        </time>
+
+                    </div>
+
+
+                    <!-- Article Title -->
+                    <h1
+                        class="mt-6 text-3xl font-bold leading-tight tracking-tight text-slate-950 sm:text-4xl lg:text-5xl"
+                    >
+                        店舗DXとは？店舗運営を効率化するための基本を解説
+                    </h1>
+
+                </div>
+
+            </header>
+
+
+            <!-- Article Body -->
+            <div
+                class="mx-auto max-w-4xl px-5 py-12 sm:px-6 sm:py-14 lg:px-8 lg:py-16"
+            >
+
+                <!-- Featured Image -->
+                <figure class="mb-10">
+
+                    <div
+                        class="aspect-[16/9] overflow-hidden rounded-2xl bg-slate-100"
+                    >
+                        <img
+                            src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1400&q=80"
+                            alt="店舗DXによる店舗運営の効率化"
+                            class="h-full w-full object-cover"
+                            width="1400"
+                            height="788"
+                        >
+                    </div>
+
+                </figure>
+
+
+                <div class="space-y-8">
+
+                    <p
+                        class="text-base leading-8 text-slate-700 sm:text-lg"
+                    >
+                        店舗運営では、人手不足、作業負担、情報管理、店舗品質など、
+                        さまざまな課題が発生します。店舗DXは、デジタル技術を活用して
+                        これらの課題を改善し、より効率的な店舗運営を実現するための取り組みです。
+                    </p>
+
+
+                    <section aria-labelledby="article-section-1">
+
+                        <h2
+                            id="article-section-1"
+                            class="text-2xl font-bold tracking-tight text-slate-950 sm:text-3xl"
+                        >
+                            店舗DXとは
+                        </h2>
+
+                        <div class="mt-5 space-y-5">
+
+                            <p
+                                class="text-base leading-8 text-slate-700 sm:text-lg"
+                            >
+                                店舗DXとは、AIやデジタル技術を店舗運営に取り入れ、
+                                業務プロセスや情報管理を改善する取り組みです。
+                            </p>
+
+                            <p
+                                class="text-base leading-8 text-slate-700 sm:text-lg"
+                            >
+                                単に新しいシステムを導入するだけではなく、
+                                店舗が抱える課題に合わせて必要な技術を活用し、
+                                スタッフの負担軽減や業務効率の向上を目指します。
+                            </p>
+
+                        </div>
+
+                    </section>
+
+
+                    <section aria-labelledby="article-section-2">
+
+                        <h2
+                            id="article-section-2"
+                            class="text-2xl font-bold tracking-tight text-slate-950 sm:text-3xl"
+                        >
+                            店舗運営でよくある課題
+                        </h2>
+
+                        <div class="mt-5 space-y-5">
+
+                            <p
+                                class="text-base leading-8 text-slate-700 sm:text-lg"
+                            >
+                                店舗運営では、スタッフ不足による作業負担の増加や、
+                                情報が複数の場所に分散することで管理が難しくなるなど、
+                                さまざまな課題が発生します。
+                            </p>
+
+
+                            <ul
+                                class="space-y-3 rounded-2xl bg-slate-50 p-6 text-slate-700 sm:p-8"
+                            >
+                                <li class="flex items-start gap-3">
+                                    <span
+                                        class="mt-2 h-2 w-2 shrink-0 rounded-full bg-orange-500"
+                                        aria-hidden="true"
+                                    ></span>
+
+                                    <span class="leading-7">
+                                        人手不足によるスタッフの負担増加
+                                    </span>
+                                </li>
+
+                                <li class="flex items-start gap-3">
+                                    <span
+                                        class="mt-2 h-2 w-2 shrink-0 rounded-full bg-orange-500"
+                                        aria-hidden="true"
+                                    ></span>
+
+                                    <span class="leading-7">
+                                        繰り返し作業に多くの時間がかかる
+                                    </span>
+                                </li>
+
+                                <li class="flex items-start gap-3">
+                                    <span
+                                        class="mt-2 h-2 w-2 shrink-0 rounded-full bg-orange-500"
+                                        aria-hidden="true"
+                                    ></span>
+
+                                    <span class="leading-7">
+                                        店舗情報が分散して管理しにくい
+                                    </span>
+                                </li>
+
+                                <li class="flex items-start gap-3">
+                                    <span
+                                        class="mt-2 h-2 w-2 shrink-0 rounded-full bg-orange-500"
+                                        aria-hidden="true"
+                                    ></span>
+
+                                    <span class="leading-7">
+                                        店舗ごとのサービス品質に差が生まれる
+                                    </span>
+                                </li>
+                            </ul>
+
+                        </div>
+
+                    </section>
+
+
+                    <section aria-labelledby="article-section-3">
+
+                        <h2
+                            id="article-section-3"
+                            class="text-2xl font-bold tracking-tight text-slate-950 sm:text-3xl"
+                        >
+                            AIとデジタル技術による店舗運営の効率化
+                        </h2>
+
+                        <div class="mt-5 space-y-5">
+
+                            <p
+                                class="text-base leading-8 text-slate-700 sm:text-lg"
+                            >
+                                AIやデジタル技術を活用することで、
+                                繰り返し発生する業務の自動化、情報整理、
+                                データ分析などを効率化できます。
+                            </p>
+
+                            <p
+                                class="text-base leading-8 text-slate-700 sm:text-lg"
+                            >
+                                これにより、スタッフはより重要な業務に集中しやすくなり、
+                                店舗運営全体の効率向上につながります。
+                            </p>
+
+                        </div>
+
+                    </section>
+
+
+                    <section aria-labelledby="article-section-4">
+
+                        <h2
+                            id="article-section-4"
+                            class="text-2xl font-bold tracking-tight text-slate-950 sm:text-3xl"
+                        >
+                            店舗DXを導入するメリット
+                        </h2>
+
+                        <div class="mt-5 space-y-5">
+
+                            <p
+                                class="text-base leading-8 text-slate-700 sm:text-lg"
+                            >
+                                店舗DXの導入によって、業務効率の向上だけでなく、
+                                運営コストの削減や顧客体験の改善も期待できます。
+                            </p>
+
+                            <p
+                                class="text-base leading-8 text-slate-700 sm:text-lg"
+                            >
+                                重要なのは、すべての業務を一度に変えることではなく、
+                                店舗ごとの課題を確認し、必要な部分から段階的に改善することです。
+                            </p>
+
+                        </div>
+
+                    </section>
+
+
+                    <section aria-labelledby="article-section-5">
+
+                        <h2
+                            id="article-section-5"
+                            class="text-2xl font-bold tracking-tight text-slate-950 sm:text-3xl"
+                        >
+                            まとめ
+                        </h2>
+
+                        <div class="mt-5">
+
+                            <p
+                                class="text-base leading-8 text-slate-700 sm:text-lg"
+                            >
+                                店舗DXは、AIやデジタル技術を活用して、
+                                店舗運営における人手不足、作業負担、情報管理などの課題を改善する取り組みです。
+                                店舗ごとの状況に合わせて適切な技術を導入することで、
+                                より効率的で持続可能な店舗運営を目指すことができます。
+                            </p>
+
+                        </div>
+
+                    </section>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- =====================================================
+             RELATED ARTICLES
+        ====================================================== -->
+
+        <section
+            class="bg-slate-50 py-12 sm:py-14 lg:py-16"
+            aria-labelledby="related-articles-title"
+        >
+
+            <div
+                class="mx-auto max-w-7xl px-5 sm:px-6 lg:px-8"
+            >
+
+                <div class="text-center">
+
+                    <p
+                        class="mb-4 text-sm font-bold tracking-wider text-orange-500"
+                    >
+                        Related Articles
+                    </p>
+
+                    <h2
+                        id="related-articles-title"
+                        class="text-3xl font-bold tracking-tight text-slate-950 sm:text-4xl"
+                    >
+                        関連記事
+                    </h2>
+
+                </div>
+
+
+                <div
+                    class="mt-8 grid gap-8 sm:mt-10 md:grid-cols-2 lg:mt-12 lg:grid-cols-3"
+                >
+
+                    <!-- Related Article 1 -->
+                    <article
+                        class="overflow-hidden rounded-2xl border border-slate-200 bg-white"
+                    >
+
+                        <a href="../" class="block">
+
+                            <div
+                                class="aspect-[16/10] overflow-hidden bg-slate-100"
+                            >
+                                <img
+                                    src="https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1200&q=80"
+                                    alt="AIを活用した店舗運営"
+                                    class="h-full w-full object-cover transition duration-300 hover:scale-105"
+                                    loading="lazy"
+                                    width="1200"
+                                    height="750"
+                                >
+                            </div>
+
+                        </a>
+
+
+                        <div class="p-6">
+
+                            <div
+                                class="flex items-center justify-between gap-4"
+                            >
+                                <span
+                                    class="inline-flex rounded-full bg-orange-100 px-3 py-1 text-xs font-semibold text-orange-600"
+                                >
+                                    AI
+                                </span>
+
+                                <time
+                                    datetime="2026-07-05"
+                                    class="text-sm text-slate-500"
+                                >
+                                    2026.07.05
+                                </time>
+                            </div>
+
+
+                            <h3
+                                class="mt-4 text-xl font-bold leading-8 text-slate-900"
+                            >
+                                <a
+                                    href="../"
+                                    class="transition hover:text-orange-500"
+                                >
+                                    AIは店舗運営をどう変える？業務効率化の可能性
+                                </a>
+                            </h3>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Related Article 2 -->
+                    <article
+                        class="overflow-hidden rounded-2xl border border-slate-200 bg-white"
+                    >
+
+                        <a href="../" class="block">
+
+                            <div
+                                class="aspect-[16/10] overflow-hidden bg-slate-100"
+                            >
+                                <img
+                                    src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80"
+                                    alt="店舗業務の自動化"
+                                    class="h-full w-full object-cover transition duration-300 hover:scale-105"
+                                    loading="lazy"
+                                    width="1200"
+                                    height="750"
+                                >
+                            </div>
+
+                        </a>
+
+
+                        <div class="p-6">
+
+                            <div
+                                class="flex items-center justify-between gap-4"
+                            >
+                                <span
+                                    class="inline-flex rounded-full bg-orange-100 px-3 py-1 text-xs font-semibold text-orange-600"
+                                >
+                                    業務自動化
+                                </span>
+
+                                <time
+                                    datetime="2026-06-28"
+                                    class="text-sm text-slate-500"
+                                >
+                                    2026.06.28
+                                </time>
+                            </div>
+
+
+                            <h3
+                                class="mt-4 text-xl font-bold leading-8 text-slate-900"
+                            >
+                                <a
+                                    href="../"
+                                    class="transition hover:text-orange-500"
+                                >
+                                    店舗業務を自動化するメリットと導入のポイント
+                                </a>
+                            </h3>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Related Article 3 -->
+                    <article
+                        class="overflow-hidden rounded-2xl border border-slate-200 bg-white"
+                    >
+
+                        <a href="../" class="block">
+
+                            <div
+                                class="aspect-[16/10] overflow-hidden bg-slate-100"
+                            >
+                                <img
+                                    src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80"
+                                    alt="店舗データの活用"
+                                    class="h-full w-full object-cover transition duration-300 hover:scale-105"
+                                    loading="lazy"
+                                    width="1200"
+                                    height="750"
+                                >
+                            </div>
+
+                        </a>
+
+
+                        <div class="p-6">
+
+                            <div
+                                class="flex items-center justify-between gap-4"
+                            >
+                                <span
+                                    class="inline-flex rounded-full bg-orange-100 px-3 py-1 text-xs font-semibold text-orange-600"
+                                >
+                                    データ活用
+                                </span>
+
+                                <time
+                                    datetime="2026-06-20"
+                                    class="text-sm text-slate-500"
+                                >
+                                    2026.06.20
+                                </time>
+                            </div>
+
+
+                            <h3
+                                class="mt-4 text-xl font-bold leading-8 text-slate-900"
+                            >
+                                <a
+                                    href="../"
+                                    class="transition hover:text-orange-500"
+                                >
+                                    店舗データを活用して意思決定を改善する方法
+                                </a>
+                            </h3>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+    <footer class="bg-slate-950 text-white">
+
+        <div
+            class="mx-auto max-w-7xl px-5 py-14 sm:px-6 lg:px-8"
+        >
+
+            <div
+                class="flex flex-col gap-10 md:flex-row md:items-start md:justify-between"
+            >
+
+                <!-- Logo -->
+                <div>
+
+                    <a
+                        href="../../index.html"
+                        class="text-xl font-bold tracking-tight"
+                        aria-label="TENPODX ホーム"
+                    >
+                        TENPODX
+                    </a>
+
+                </div>
+
+
+                <!-- Footer Navigation -->
+                <nav
+                    class="flex flex-wrap gap-x-8 gap-y-4"
+                    aria-label="フッターナビゲーション"
+                >
+
+                    <a
+                        href="../../service/"
+                        class="text-sm text-slate-300 transition hover:text-white"
+                    >
+                        サービス
+                    </a>
+
+                    <a
+                        href="../../index.html#about"
+                        class="text-sm text-slate-300 transition hover:text-white"
+                    >
+                        店舗DXとは
+                    </a>
+
+                    <a
+                        href="../"
+                        class="text-sm text-slate-300 transition hover:text-white"
+                    >
+                        コラム
+                    </a>
+
+                    <a
+                        href="../../contact/"
+                        class="text-sm text-slate-300 transition hover:text-white"
+                    >
+                        お問い合わせ
+                    </a>
+
+                    <a
+                        href="#"
+                        class="text-sm text-slate-300 transition hover:text-white"
+                    >
+                        プライバシーポリシー
+                    </a>
+
+                </nav>
+
+            </div>
+
+
+            <div
+                class="mt-8 border-t border-slate-800 pt-6"
+            >
+
+                <p class="text-sm text-slate-400">
+                    &copy; 2026 TENPODX. All Rights Reserved.
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="../../assets/js/main.js" defer></script>
+
+</body>
+</html>
